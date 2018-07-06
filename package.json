@@ -1,0 +1,56 @@
+{
+  "fitbit": {
+    "appUUID": "e117150a-a250-43f8-aa63-05794e150e1d",
+    "appType": "clockface",
+    "appDisplayName": "Sides",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location",
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Sides"
+      },
+      "de": {
+        "name": "Sides"
+      },
+      "es": {
+        "name": "Sides"
+      },
+      "fr": {
+        "name": "Sides"
+      },
+      "it": {
+        "name": "Sides"
+      },
+      "ja": {
+        "name": "Sides"
+      },
+      "ko": {
+        "name": "Sides"
+      },
+      "nl": {
+        "name": "Sides"
+      },
+      "sv": {
+        "name": "Sides"
+      },
+      "zh-cn": {
+        "name": "Sides"
+      },
+      "zh-tw": {
+        "name": "Sides"
+      }
+    }
+  }
+}

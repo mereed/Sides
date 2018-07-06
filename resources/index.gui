@@ -1,0 +1,220 @@
+<svg>     
+  
+  <image href="mycamera.png" x="103" y="76" width="135" height="104" />
+  <image id="imageBackground" x="0" y="0" width="100%" height="100%" />
+  <image href="gradL3.png" x="0" y="0" width="100%" height="100%" />
+  
+  <image id="battimg" href="versa-battery.png" x="0" y="0" width="42" height="29" fill="white" display="none"/>
+  <text id="batterytext2" x="46" y="19" font-family="Fabrikat-Bold" fill="black" font-size="18" text-length="25" text-anchor="start" letter-spacing="0" display="none"/>
+  <text id="batterytext" x="45" y="18" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="start" letter-spacing="0" display="none"/>
+
+  <svg id="lefthand" >
+    
+   <svg>
+    <g transform="rotate(90)"> 
+      <text id="temp" x="28" y="-2" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="start" letter-spacing="0"/>
+    </g>
+   </svg>  
+   <svg>
+    <g transform="rotate(90)">
+      <text id="myLabel" x="22" y="-320" font-family="Colfax-Regular" fill="white" font-size="34" text-length="25" text-anchor="start" letter-spacing="-1"/>
+    </g>
+   </svg>   
+   <svg>
+    <g transform="rotate(90)">
+      <text id="dateLabel1" x="227" y="-320" font-family="Colfax-Light" fill="white" font-size="34" text-length="25" text-anchor="end" letter-spacing="-1"/>
+   </g>
+  </svg>
+  <svg>
+    <g transform="rotate(90)">
+      <text id="dateLabel1b" x="226" y="-333" font-family="Colfax-Light" fill="white" font-size="18" text-length="25" text-anchor="start" letter-spacing="0"/>
+   </g>
+  </svg>  
+  <svg>
+   <g transform="rotate(90)"> 
+      <text id="GW_DESCRIPTION" x="28" y="-22" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="start" letter-spacing="0"/> 
+   </g>
+  </svg>
+  <svg>
+    <g transform="rotate(90)">  
+      <text id="hrm" x="230" y="-2" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0"/>
+   </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(90)">  
+     <image id="hearticon" href="stat_hr_open_15px.png" x="235" y="-17" width="15" height="15" fill="red"/>  
+    </g>
+  </svg> 
+    
+  <svg> 
+    
+  <svg>
+    <g transform="rotate(90)">  
+     <text id="steptext" x="230" y="-22" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0"/>
+    </g>
+  </svg>   
+  <svg>
+    <g transform="rotate(90)">  
+     <image id="sicon" href="stat_steps_open_15px.png" x="235" y="-35" width="15" height="15" fill="white"/>  
+    </g>
+  </svg>    
+  <svg>
+    <g transform="rotate(90)">  
+     <text id="caltext" x="230" y="-22" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0" display="none"/>
+    </g>
+  </svg>
+     <svg>
+    <g transform="rotate(90)">  
+     <image id="cicon" href="stat_cals_open_15px.png" x="235" y="-35" width="15" height="15" fill="white" display="none"/>  
+    </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(90)">  
+      <text id="disttext" x="230" y="-22" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0" display="none"/>
+    </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(90)">  
+      <image id="dicon" href="stat_dist_open_15px.png" x="235" y="-35" width="15" height="15" fill="white" display="none"/>  
+    </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(90)">  
+      <text id="eletext" x="230" y="-22" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0" display="none"/>
+    </g>
+  </svg>
+  <svg>
+    <g transform="rotate(90)">  
+      <image id="ficon" href="stat_floors_open_15px.png" x="235" y="-35" width="15" height="15" fill="white" display="none"/>  
+    </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(90)">  
+      <text id="acttext" x="230" y="-22" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0" display="none"/>
+    </g>
+  </svg>
+  <svg>
+    <g transform="rotate(90)">  
+      <image id="aicon" href="stat_am_open_15px.png" x="235" y="-35" width="15" height="15" fill="white" display="none"/>  
+    </g>
+  </svg>  
+    
+  </svg>
+    
+      <rect id="stat" x="0" y="150" width="100" height="100" pointer-events="visible"/>
+   
+ </svg>
+  
+  
+<svg id="righthand" display="none">
+  
+   <svg>
+    <g transform="rotate(-90)">
+      <text id="myLabel0" x="-248" y="28" font-family="Colfax-Regular" fill="white" font-size="34" text-length="25" text-anchor="start" letter-spacing="-1"/>
+    </g>
+   </svg> 
+  
+   <svg>
+    <g transform="rotate(-90)">
+      <text id="dateLabel2" x="-40" y="28" font-family="Colfax-Light" fill="white" font-size="34" text-length="25" text-anchor="end" letter-spacing="-1"/>
+   </g>
+  </svg>
+  <svg>
+    <g transform="rotate(-90)">
+      <text id="dateLabel1b2" x="-40" y="14" font-family="Colfax-Light" fill="white" font-size="18" text-length="25" text-anchor="start" letter-spacing="0"/>
+   </g>
+  </svg>  
+  
+   <svg>
+    <g transform="rotate(-90)"> 
+      <text id="temp0" x="-237" y="346" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="start" letter-spacing="0"/>
+    </g>
+   </svg>  
+   
+  <svg>
+   <g transform="rotate(-90)"> 
+      <text id="GW_DESCRIPTION0" x="-237" y="326" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="start" letter-spacing="0"/> 
+   </g>
+  </svg>
+  
+ <svg>
+    <g transform="rotate(-90)">  
+      <text id="hrm0" x="-28" y="346" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0"/>
+   </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(-90)">  
+     <image id="hearticon" href="stat_hr_open_15px.png" x="-23" y="332" width="15" height="15" fill="red"/>  
+    </g>
+  </svg>  
+  
+<svg>  
+  
+ <svg>
+    <g transform="rotate(-90)">  
+     <text id="steptext0" x="-28" y="326" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0"/>
+    </g>
+  </svg>   
+  <svg>
+    <g transform="rotate(-90)">  
+     <image id="sicon0" href="stat_steps_open_15px.png" x="-23" y="312" width="15" height="15" fill="white"/>  
+    </g>
+  </svg>    
+  <svg>
+    <g transform="rotate(-90)">  
+     <text id="caltext0" x="-20" y="326" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0" display="none"/>
+    </g>
+  </svg>
+     <svg>
+    <g transform="rotate(-90)">  
+     <image id="cicon0" href="stat_cals_open_15px.png" x="-17" y="312" width="15" height="15" fill="white" display="none"/>  
+    </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(-90)">  
+      <text id="disttext0" x="-20" y="326" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0" display="none"/>
+    </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(-90)">  
+      <image id="dicon0" href="stat_dist_open_15px.png" x="-17" y="312" width="15" height="15" fill="white" display="none"/>  
+    </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(-90)">  
+      <text id="eletext0" x="-20" y="326" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0" display="none"/>
+    </g>
+  </svg>
+  <svg>
+    <g transform="rotate(-90)">  
+      <image id="ficon0" href="stat_floors_open_15px.png" x="-17" y="312" width="15" height="15" fill="white" display="none"/>  
+    </g>
+  </svg>  
+  <svg>
+    <g transform="rotate(-90)">  
+      <text id="acttext0" x="-20" y="326" font-family="Fabrikat-Bold" fill="white" font-size="18" text-length="25" text-anchor="end" letter-spacing="0" display="none"/>
+    </g>
+  </svg>
+  <svg>
+    <g transform="rotate(-90)">  
+      <image id="aicon0" href="stat_am_open_15px.png" x="-17" y="312" width="15" height="15" fill="white" display="none"/>  
+    </g>
+  </svg>  
+  
+ </svg>
+          <rect id="stat2" x="250" y="0" width="100" height="100" pointer-events="visible"/>
+</svg>
+
+  
+   <image href="swap3.png" x="145" y="2" width="57" height="21" fill="white"/>
+   <rect id="swapside" x="120" y="0" width="100" height="15%" pointer-events="visible"  />
+  
+
+  <!-- USE KPAY UI CODE - DO NOT MODIFY BELOW THIS LINE - ADD ALL OWN UI CODE ABOVE THIS LINE -->
+  <use href="#kpay" />
+
+</svg>
+  
+
+
+
